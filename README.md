@@ -7,3 +7,7 @@ In the meanwhile you can take a look at the poster presented at Machine Learning
 <p align="center">
 <img src="https://github.com/dimitra-maoutsa/Geometric-path-augmentation-for-SDEs/blob/main/Poster_Maoutsa_Geometric_augmentation8.png" width=75% height=75%>
 </p>
+
+
+
+The data used for creating the plots can be found here: https://osf.io/htcvs/
