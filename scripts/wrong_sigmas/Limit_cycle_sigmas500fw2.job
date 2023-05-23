@@ -1,0 +1,13 @@
+#!/bin/bash --login 
+#$ -cwd 
+#$ -N LCsigma500_fw2.$TASK_ID.$JOB_ID
+#$ -j y
+#$ -o LCsigma500_fw2.$TASK_ID.$JOB_ID.out
+#$ -m be
+
+T=$1
+obsdens=$2
+noise=$3
+
+conda activate /work/maoutsa/geodesics
+python3 run_augmentation_LC_on_clusterfw_sigmas.py $1 $2 $3 
